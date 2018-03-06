@@ -13,7 +13,7 @@ let seenTutorialBool = UserDefaults.standard.bool(forKey: "seenTutorial")
 
 Turn the old way using UserDefaults into this: 
 
-```
+```swift
 // boolValue is now of type 'Bool'. No need to case or worry about optionals.
 let boolValue = UserDefaults.standard[.boolKey]
 
